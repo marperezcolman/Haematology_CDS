@@ -19,9 +19,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "0.3.1",
+      "sem_ver" : "0.4.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "815130335a549b138af545685ec7d6d6",
+      "MD5-CAM-1.0.1" : "4cd61db988ff92e9c350b6b8ec65abaf",
       "PARENT:MD5-CAM-1.0.1" : "043881f92aa1b5803ed98e0bee08ead6"
     },
     "details" : {
@@ -107,7 +107,7 @@
         "at0000.1" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0000.1",
-          "text" : "CDS -2e- Diagnosis & Staging - Tissue collection",
+          "text" : "CDS Haem -2e- Diagnosis & Staging - Tissue collection",
           "description" : "Cancer Dataset Section"
         }
       }
@@ -2139,6 +2139,13 @@
                           } ],
                           "attributeTuples" : [ ]
                         }, {
+                          "@type" : "C_COMPLEX_OBJECT",
+                          "rmTypeName" : "ELEMENT",
+                          "occurrences" : "0..0",
+                          "nodeId" : "at0035.1",
+                          "attributes" : [ ],
+                          "attributeTuples" : [ ]
+                        }, {
                           "@type" : "C_ARCHETYPE_ROOT",
                           "rmTypeName" : "CLUSTER",
                           "occurrences" : "0..1",
@@ -2156,13 +2163,6 @@
                           "attributeTuples" : [ ],
                           "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-specimen-001.v1",
                           "referenceType" : "archetypeOverlay"
-                        }, {
-                          "@type" : "C_COMPLEX_OBJECT",
-                          "rmTypeName" : "ELEMENT",
-                          "occurrences" : "0..0",
-                          "nodeId" : "at0035.1",
-                          "attributes" : [ ],
-                          "attributeTuples" : [ ]
                         } ]
                       } ],
                       "attributeTuples" : [ ]
