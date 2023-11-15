@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "0.3.0",
+      "sem_ver" : "0.4.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "fbce0130458e0ce430002274bfb5c3a1",
+      "MD5-CAM-1.0.1" : "c27a6436083e122c2d18c951e56e9d42",
       "PARENT:MD5-CAM-1.0.1" : "A0DA8D01B967B2B05FC941F6E389A94B"
     },
     "details" : {
@@ -140,7 +140,7 @@
         "at0000.1" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0000.1",
-          "text" : "CDS -7c- Treatment - Stem cell",
+          "text" : "CDS Haem -7c- Treatment - Stem cell",
           "description" : "Generic document containing a summary of health information about an individual."
         }
       },
