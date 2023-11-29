@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "0.4.0",
+      "sem_ver" : "0.4.1",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "10afa1d82929b8e299a057267a102533",
+      "MD5-CAM-1.0.1" : "0a7b9a973ee922d55dde65d372038653",
       "PARENT:MD5-CAM-1.0.1" : "A0DA8D01B967B2B05FC941F6E389A94B"
     },
     "details" : {
@@ -680,6 +680,13 @@
             "text" : "Gene or biomarker analysed",
             "description" : "Name of the laboratory investigation performed on the specimen(s).",
             "comment" : "A test result may be for a single analyte, or a group of items, including panel tests. It is strongly recommended that 'Test name' be coded with a terminology, for example LOINC or SNOMED CT. For example: 'Glucose', 'Urea and Electrolytes', 'Swab', 'Cortisol (am)', 'Potassium in perspiration' or 'Melanoma histopathology'. The name may sometimes include specimen type and patient state, for example 'Fasting blood glucose' or include other information, as 'Potassium (PNA blood gas)'."
+          },
+          "at0100.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0100.1",
+            "text" : "Use this for point in pathway",
+            "description" : "Description of clinical information available at the time of interpretation of results.",
+            "comment" : "This data element may include a link to the original clinical information provided in the test request."
           }
         },
         "nb" : { },
