@@ -26,7 +26,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"041b5a681bc0112d4976185b3f02f164">
+		["MD5-CAM-1.0.1"] = <"1139dd33a8bf382c7eac147a2c2289f9">
 		["build_uid"] = <"74a30a62-6fba-3394-a44c-fd0e0465d10a">
 	>
 
@@ -51,6 +51,11 @@ definition
 			ELEMENT[at0011] occurrences matches {0..1} matches {    -- Cytogenetic marker - other
 				value matches {
 					DV_TEXT matches {*}
+				}
+			}
+			ELEMENT[at0012] occurrences matches {0..1} matches {    -- EGIL Score
+				value matches {
+					DV_CODED_TEXT matches {*}
 				}
 			}
 		}
@@ -78,6 +83,10 @@ ontology
 				>
 				["at0011"] = <
 					text = <"Cytogenetic marker - other">
+					description = <"">
+				>
+				["at0012"] = <
+					text = <"EGIL Score">
 					description = <"">
 				>
 			>
